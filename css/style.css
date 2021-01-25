@@ -1,0 +1,150 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #1d1f21;
+  margin: 0;
+  background: #ffffff;
+}
+
+.l-clearfix {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.l-row {
+  width: 100%;
+}
+
+.purelander-template-header {
+  box-shadow: 0 10px 30px 0 rgba(82,63,105,.08);
+}
+
+.purelander-template-container {
+  width: 90%;
+  margin: 15px auto 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 950px;
+  box-shadow: 0 0 8px 1px rgba(82,63,105,.15);
+}
+
+.purelander-template-container:last-of-type {
+  margin-bottom: 25px;
+}
+
+.purelander-logo-container {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.purelander-logo-container a {
+  display: inline-block;
+}
+
+.purelander-logo-container img {
+  width: 300px;
+  height: 200px;
+}
+
+.purelander-template-title {
+  font-size: 26px;
+  margin: 10px 0;
+  color:red;
+}
+
+.purelander-template-paragraph {
+  font-size: 16px;
+  margin: 15px 0;
+  line-height: 1.5;
+}
+
+.purelander-quiz-step {
+  text-align: center;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.purelander-template-quiz-title {
+  font-size: 20px;
+  margin: 5px 0 0 0;
+}
+
+.purelander-template-quiz-question {
+  font-size: 20px;
+  margin: 10px 0 20px 0;
+  color: #9C27B0;
+}
+
+.stepButton {
+  width: 45%;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 18px;
+  background: #135ec7;
+  outline: none;
+  position: relative;
+  cursor: pointer;
+  margin-right: 1.666666%;
+  margin-left: 3.333333%;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 5px;
+  float: left;
+  color: #fff;
+  border: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,.5);
+}
+
+.noButton {
+  margin-right: 3.333333%;
+  margin-left: 1.666666%;
+}
+
+.stepButton:hover {
+  background-color: #072a66;
+}
+
+.purelander-checking-answers-container {
+  text-align: center;
+}
+
+.purelander-answers-title {
+  margin: 15px 0;
+}
+
+.progress-loader {
+  margin-bottom: 15px;
+}
+
+.purelander-answers-small {
+  font-size: 16px;
+  margin: 2px 0 7px 0;
+}
+
+.approved-text {
+  color: #001841;
+  font-weight: 700;
+}
+
+.purelander-button-container {
+  text-align: center;
+  margin: 35px 3.333333%;
+}
+
+.purelander-template-button {
+  display: block;
+  background-color: #00FF00;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 10px;
+  font-size: 35px;
+  transition: .25s;
+}
+
+.purelander-template-button:hover {
+  background-color: #072a66;
+}
